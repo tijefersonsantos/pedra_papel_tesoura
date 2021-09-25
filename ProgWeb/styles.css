@@ -1,0 +1,61 @@
+
+body { 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(67, 66, 95) 0%, rgba(101,9,121,0.5525560566023284) 52%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    color: aliceblue;
+    max-width: 1300px;
+    margin: auto;
+    font-family: 'Girassol', cursive;
+    width: 100%;
+    background: linear-gradient(to right, rgb(96, 211, 231), rgb(145, 113, 72), rgb(86, 122, 111));
+    background-size: 500% 100%;
+    animation-name: degrade;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    @keyframes degrade{
+        0%{
+            background-position-x: 0%;
+        }
+        100%{
+            background-position-x: 100%;
+        }
+    }
+hr {  
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgba(151, 7, 7, 0.664), transparent); 
+}
+
+.botao1{
+    font: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: #F60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #930;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.botao2{
+    font: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: #F60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #930;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+

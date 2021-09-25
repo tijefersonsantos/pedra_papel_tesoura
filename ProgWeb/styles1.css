@@ -1,0 +1,75 @@
+header{
+    text-align: center;
+    font: 1em sans-serif;
+    width: 100% ;
+    max-width: 100;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+
+  }
+  @keyframes float {
+      0% {
+          transform: translateY(0px);
+      }
+      10% {
+          transform: translateY(-10px);
+      }
+}
+
+body { 
+    background: rgb(2,0,36);
+    text-align: center;
+    color: rgba(14, 26, 36, 0.719);
+    margin: 0 auto;
+    max-width: 1300px;
+    background: linear-gradient(to right, rgba(108, 56, 143, 0.705), rgb(126, 115, 228));
+    background-size: 500% 100%;
+    animation-name: degrade;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+
+    @keyframes degrade{
+        0%{
+            background-position-x: 0%;
+        }
+        100%{
+            background-position-x: 100%;
+        }
+    }
+hr {  
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgba(151, 7, 7, 0.664), transparent); 
+}
+h1{
+    font-family:monospace;
+    font-size: 30px;
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
+p{
+    font-family:sans-serif;
+    font-size: 25px;
+    color: lightcyan;
+
+    text-align: justify;
+    margin: 60px;
+}
+.botao {
+    font: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: #F60;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #930;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+

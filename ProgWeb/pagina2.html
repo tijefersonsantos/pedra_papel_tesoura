@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" type="ICONE" href="./assets/img/pedraicon.png">
+   
+    <title>Pedra Papel Tesoura</title>
+     
+</head>
+<body>
+   
+ 
+    <h1>VAMOS JOGAR?</h1>
+
+    <h3>USUÁRIO</h3>
+
+   
+
+    <img src="./assets/img/pedra.png" alt="pedra" width="75px">
+    <img src="./assets/img/papel.png" alt="papel"width="80px">
+    <img src="./assets/img/tesoura.png" alt="tesoura"width="90px">
+    
+  
+    <form name="frmPPT">
+    <input type="radio" name="grupo" id="pedra"> PEDRA
+    <input type="radio" name="grupo" id="papel"> PAPEL
+    <input type="radio" name="grupo" id="tesoura"> TESOURA
+    <p> 
+    </form>
+     <div class="botao1">
+    <input type="button" value="JOGAR" onclick="jogar()">
+       </div>  
+       <div class="botao2">
+
+    <input type="reset" value="RESET" onclick="resetar()">
+    </div> 
+    
+
+
+    <hr>
+     <h3>MAQUINA</h3>
+     <img src="monitor.png" alt="monitor" id="monitor" width="200px">
+
+     <hr>
+ 
+     <h3 id="placar"></h3>
+     <script src="./javascript.js"></script>
+    
+    
+</body>
+</html>
+</section>
